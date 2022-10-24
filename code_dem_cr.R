@@ -4,11 +4,11 @@
 # Source: https://www.rayshader.com/#mapping-with-rayshader
 
 # Packages
-library(rayshader)
+require(rayshader)
 require(cptcity)
 require(raster)
-library(rgl)
-library(magick)
+require(rgl)
+require(magick)
 
 # Input DEM
 cr_dem <- raster("C:/Users/jorge/Downloads/cr.tif")
