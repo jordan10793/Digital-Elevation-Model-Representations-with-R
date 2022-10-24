@@ -14,7 +14,7 @@ library(magick)
 cr_dem <- raster("C:/Users/jorge/Downloads/cr.tif")
 
 # DEM to matrix conversion
-cr = raster_to_matrix(cr_dem)
+cr <- raster_to_matrix(cr_dem)
 
 # Derive ambient occlusion shadow grid
 cr_amb_shade <- ambient_shade(cr, zscale = 75)
@@ -46,7 +46,7 @@ play3d(spin3d(axis = c(0, 1, 0), rpm = 20), duration = 5)
 
 # Export animation in GIF format
 movie3d(
-  movie="cr", 
+  movie = "cr", 
   spin3d(axis = c(0, 1, 0), rpm = 10),
   duration = 6, 
   dir = "~/",
