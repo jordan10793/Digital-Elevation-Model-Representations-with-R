@@ -1,5 +1,5 @@
 # Bathymetric representation of Costa Rica through the Rayshader package.
-# Elevation model used: ALOS World 3D - 30m (AW3D30) (downloaded from Google Earth Engine)
+# Elevation model used: Global Multi-Resolution Topography (GMRT) (https://www.gmrt.org/GMRTMapTool/)
 # Author: Jorge Daniel García Girón
 # Source: https://www.rayshader.com/#mapping-with-rayshader
 
